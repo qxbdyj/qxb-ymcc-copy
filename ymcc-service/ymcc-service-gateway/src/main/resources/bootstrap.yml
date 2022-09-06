@@ -1,0 +1,15 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    active: dev
+  application:
+    name: service-gateway
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848 #配置中心
+        file-extension: yaml #配置文件格式
+        prefix: application-gateway #配置前缀 ，默认使用sring.application.name
+        group: DEFAULT_GROUP
+        namespace: 36cb096a-07f8-4879-a5aa-11a3198af090

@@ -1,0 +1,9 @@
+package cn.qxb.query;
+/**
+ * @projectName: qxb-ymcc
+ * @author: Qxb
+ * @since: 2022-09-07
+ * @description:
+ */
+public class EmployeeQuery extends BaseQuery{
+}

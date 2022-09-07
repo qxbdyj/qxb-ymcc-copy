@@ -1,0 +1,9 @@
+package cn.qxb.query;
+/**
+ * @projectName: qxb-ymcc
+ * @author: ${author}
+ * @since: ${date}
+ * @description:
+ */
+public class ${table.entityName}Query extends BaseQuery{
+}
